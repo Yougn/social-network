@@ -1,0 +1,16 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogs_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.messages_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}

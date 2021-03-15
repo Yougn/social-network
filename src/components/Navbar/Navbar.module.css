@@ -1,0 +1,27 @@
+.nav {
+  padding: 20px;
+  height: 100vh;
+  grid-area: nav;
+  background-color: aquamarine;
+}
+
+.nav__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav__item {
+  margin-bottom: 30px;
+}
+
+.nav__item a {
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav__item a.active {
+  color:blueviolet;
+}
