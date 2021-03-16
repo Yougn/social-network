@@ -4,5 +4,17 @@
 }
 
 .descriptionBlock {
+    display: flex;
+    flex-direction: column;
     padding: 10px;
+}
+
+.userAvatar {
+    width: 200px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.button {
+    padding-bottom: 20px;  
 }
